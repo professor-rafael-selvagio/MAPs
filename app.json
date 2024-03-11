@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rafaelselvagio.Maps"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/mapas-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rafaelselvagio.Maps",
+      "permissions": ["ACCESS_FINE_LOCATION"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f710ad8a-a654-4637-afc0-1a9cece3b914"
+      }
     }
   }
 }
